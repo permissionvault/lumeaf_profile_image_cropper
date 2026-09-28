@@ -13,7 +13,7 @@ part 'src/image_cropper/image_cropper_provider.dart';
 part 'src/image_cropper/image_cropper_screen.dart';
 
 final class ProfileImageCropper {
-  Future<File?> copeImage({
+  Future<File?> cropImage({
     required BuildContext context,
     required File imageFile,
   }) async {
